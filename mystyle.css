@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    background-color: black;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    margin: 0px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+.right{
+    margin-left: auto;
+}
+
+.nav-item{
+   display: flex;
+}
+.aralik{
+    letter-spacing: 6px;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.nav-link-right{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.nav-link-logo{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.nav-link:hover{
+    color: black;
+    background-color: white;
+}
+.nav-link-right:hover {
+    background-color: #009688 !important;
+}
+.nav-link-logo:hover{
+    color: black;
+    background-color: gray;
+}
+.active{
+    background-color: #009688;
+}
+.header{
+    position: relative;
+}
+.header-img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.header-img-text{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-size: 24px;
+}
+.header-img-text:hover{
+    background-color: #009688;
+    color: white;
+}
+.ourteam{
+    padding: 100px;
+}
+.ourteam-header{
+    text-align: center;
+}
+.ourteam-description{
+    text-align: center;
+}
+.ourteam-images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ourteam-card{
+    text-align: center;
+}
+.ourteam-card-img{
+    border-radius: 50%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.footer-link{
+    background-color: #009688;
+    padding: 15px 20px;
+    color: white;
+}
